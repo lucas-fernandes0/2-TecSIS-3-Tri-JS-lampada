@@ -1,0 +1,27 @@
+body{
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    opacity: 100%;
+}
+button{
+    background-color: yellow;
+    border: none;
+    width: 10rem;
+    height: 1.5rem;
+    box-shadow: 7px 7px black;
+}
+button:hover{
+    background-color: red;
+    cursor: crosshair;
+}
